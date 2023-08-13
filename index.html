@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="index.css" rel="stylesheet" />
+    <link href="#" rel="icon" />
     <title>Number Guesser</title>
   </head>
   <body>
@@ -19,11 +20,13 @@
         <button id="submit">Submit Guess</button>
       </div>
       <div>
+        <p class="message red" id="check-input"></p>
         <p class="message" id="number-of-guesses"></p>
         <p class="message" id="too-high">You guessed too high. Try again.</p>
         <p class="message" id="too-low">You guessed too low. Try again.</p>
         <p class="message" id="max-guesses">
-          You reached the max number of guesses
+          You reached the max number of guesses. <br />
+          Would you like to play again?
         </p>
         <p class="message" id="correct">
           Congratulations, You guessed correctly! <br />
